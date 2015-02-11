@@ -3,7 +3,7 @@
   <head>
     <title>Capture Video</title>
 
-    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <!--<script type="text/javascript" charset="utf-8" src="cordova.js"></script>-->
     <script type="text/javascript" charset="utf-8" src="json2.js"></script>
     <script type="text/javascript" charset="utf-8">
 
@@ -50,8 +50,24 @@
     }
 
     </script>
+    
+    <style>
+      body{
+        width:300px;
+        margin:0 auto;
+        text-align:center;
+        
+      }
+      
+      h1{
+        color:red;
+        
+      }
+    </style>
+    
     </head>
     <body>
+      <h1>Video capture demo</h1>
         <button onclick="captureVideo();">Capture Video</button> <br>
     </body>
 </html>
